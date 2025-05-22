@@ -9,7 +9,7 @@
     <!-- Autor/wydawca -->
     <Publisher>Twoja Firma lub Imię</Publisher>
     <!-- (opcjonalnie) Strona projektu -->
-    <ProductUrl>https://github.com/Corex553/ProjektPO</ProductUrl>
+    <ProductUrl>https://github.com/Corex553/GitProjekt</ProductUrl>
     <!-- Katalog w menu Start -->
     <StartMenuDir>Quiz Informatyczny</StartMenuDir>
     <!-- Domyślny katalog instalacji -->
