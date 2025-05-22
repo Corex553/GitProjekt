@@ -21,7 +21,7 @@
     <RemoteRepositories>
         <Repository>
             <!-- Tu podajesz adres do katalogu, gdzie leży Twój Updates.xml -->
-            <Url>https://twojanazwa.github.io/repository</Url>
+            <Url>https://github.com/Corex553/GitProjekt</Url>
         </Repository>
     </RemoteRepositories>
 
