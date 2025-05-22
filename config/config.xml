@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <!-- Nazwa aplikacji -->
+    <Name>Quiz Informatyczny</Name>
+    <!-- Wersja instalatora -->
+    <Version>1.0.0</Version>
+    <!-- Tytuł okna instalatora -->
+    <Title>Quiz Informatyczny Installer</Title>
+    <!-- Autor/wydawca -->
+    <Publisher>Twoja Firma lub Imię</Publisher>
+    <!-- (opcjonalnie) Strona projektu -->
+    <ProductUrl>https://github.com/Corex553/ProjektPO</ProductUrl>
+    <!-- Katalog w menu Start -->
+    <StartMenuDir>Quiz Informatyczny</StartMenuDir>
+    <!-- Domyślny katalog instalacji -->
+    <TargetDir>@HomeDir@/QuizInformatyczny</TargetDir>
+    <!-- Tylko online, nie pakuje plików lokalnie -->
+    <OfflineInstallation>false</OfflineInstallation>
+
+    <!-- REPOZYTORIUM ONLINE -->
+    <RemoteRepositories>
+        <Repository>
+            <!-- Tu podajesz adres do katalogu, gdzie leży Twój Updates.xml -->
+            <Url>https://twojanazwa.github.io/repository</Url>
+        </Repository>
+    </RemoteRepositories>
+
+    <!-- Opcje dodatkowe (opcjonalnie) -->
+    <WizardStyle>Modern</WizardStyle>
+    <AllowNonAdminInstallation>true</AllowNonAdminInstallation>
+    <ShowLicenseCheckBox>false</ShowLicenseCheckBox>
+</Installer>
